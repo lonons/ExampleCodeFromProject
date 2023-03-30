@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace TestTask
 {
@@ -26,7 +24,6 @@ namespace TestTask
 
         public void RemoveItem(int index)
         {
-            Debug.Log("1");
             _listItems.RemoveAt(index);
         }
 
